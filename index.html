@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Library</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <header>My Library</header>
+    <div class="library"></div>
+    <div class="book-input">
+      <form>
+        <label for="book-title">Title</label>
+        <input type="text" id="book-title" name="book-title" placeholder="Enter a book title">
+        <label for="book-author">Author</label>
+        <input type="text" id="book-author" name="book-author" placeholder="Enter the author">
+        <label for="book-pages">Pages</label>
+        <input type="text" id="book-pages" name="book-pages" placeholder="Enter page count">
+        <label for="have-read">Read</label>
+        <input type="checkbox" id="have-read" name="have-read" value="Have Read">
+        <!-- <p>Have you read it?</p>
+        <label for="have-read">Yes</label>
+        <input type="radio" id="have-read" name="read-status" value="Have Read"> 
+        <label for="not-read>">No</label>
+        <input type="radio" id="not-read" name="read-status" value="Haven't Read"> -->
+        <button type="button" class="submit">Submit</button>
+      </form>
+   </div>
+   <div class="add-book-container">
+     <button type="button" class="add-book">Add Book</button>
+   </div>
+  </body>
+</html>

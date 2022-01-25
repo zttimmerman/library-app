@@ -1,0 +1,124 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+:root {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+}
+
+header {
+    font-size: 2rem;
+    text-align: center;
+    background-color: lightsteelblue;
+    padding: 1.75rem;
+}
+
+.library {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.book {
+    flex-shrink: 0;
+    padding: 0.75rem;
+    margin: 1rem;
+    background-color: lightslategray;
+}
+
+.property {
+    padding: 0.5rem;
+    border: 1px solid white; 
+    border-radius: 0.5rem; 
+    color: white;
+    margin: 0.5rem;
+}
+
+.delete-book {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    color: white;
+    background-color: royalblue;
+    border: 1px solid white;
+}
+
+.read-button {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-color: seagreen;
+    color: white;
+}
+
+.not-read-button {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-color: tomato;
+    color: white;
+}
+
+.book-input {
+    display: none;
+    position: fixed;
+    width: 15rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 5rem;
+    z-index: 1;
+    background-color: lightblue;
+}
+
+
+input[type=text], .submit {
+    display: block;
+    padding: 0.5rem;
+    margin: 0.75rem;
+    border: 1px solid #808080;
+    background-color: white;
+}
+
+label {
+    margin: 0.75rem;
+    text-align: center;
+}
+
+.submit {
+    margin: 1rem auto;
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 0.5rem;
+    color: white;
+    background-color: royalblue;
+}
+
+.add-book-container {
+    display: flex;
+    justify-content: center;
+}
+
+.add-book {
+    border-radius: 1rem;
+    border: 1px solid rgb(67, 64, 238);
+    background-color: rgb(67, 64, 238);
+    color: white;
+    padding: 0.5rem;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
